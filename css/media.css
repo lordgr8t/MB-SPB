@@ -1,0 +1,59 @@
+.rotateter{
+	animation-name: bgimg;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes bgimg {
+	0%{
+		transform: rotate(0);
+	}
+	100%{
+		transform: rotate(-90deg);
+	}
+}
+@media (max-width: 800px) {
+	.ipad{
+		display: none;
+	}
+	.iphone{
+		top: 0;
+		margin-left: 10%;
+	}
+}
+@media (max-width: 630px) {
+	.iphone{
+		margin-left: 28%;
+	}
+}
+@media (max-width: 575px) {
+	.iphone{
+		margin-left: 37%;
+	}
+	body > div > div > div.about_page > header{
+		display: block !important;
+	}
+	.logo{
+		margin: 0 auto;
+		text-align: center;
+		margin: 2% 0;
+	}
+	header{
+		justify-content: space-between;
+		padding: 0 6%;
+	}
+}
+@media (max-width: 550px) {
+	.iphone{
+		margin-left: 44%;
+	}
+}
+@media (max-width: 520px) {
+	.iphone{
+		margin-left: 48%;
+	}
+}
+@media (max-width: 630px) {
+	.iphone{
+		display: none;
+	}
+}
