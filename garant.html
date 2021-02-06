@@ -14,21 +14,36 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	
+	<style>
+		body > header > div > div.d-flex.aic > a:nth-child(2){
+			color: #BE8500;
+		}
+	</style>
 	<header class="container">
 		<div class="d-flex jcsb">
 			<div class="d-flex">
-				<a href="#" class="f36">MB-SPB SERVICE</a>
+				<a href="index.html" class="f36">MB-SPB SERVICE</a>
 				<div>
 					<a href="call:+7(812)988-06-09">+7(812)988-06-09</a>
 					<p class="f12">Звоните бесплатно</p>
 				</div>
 			</div>
 			<div class="d-flex aic">
-				<a href="#">Услуги</a>
-				<a href="#">Гарантии</a>
-				<a href="#">О нас</a>
-				<a href="#">Контакты</a>
+				<a href="services.html">Услуги</a>
+				<a href="garant.html">Гарантии</a>
+				<a href="about.html">О нас</a>
+				<a href="contact.html">Контакты</a>
+			</div>
+			<div class="mobileheader">
+				<img onclick="openmenu()" src="img/menu.png">
+			</div>
+			<div class="menu">
+				<a href="index.html">Главная</a><br>
+				<a href="services.html">Услуги</a><br>
+				<a href="garant.html">Гарантии</a><br>
+				<a href="about.html">О нас</a><br>
+				<a href="contact.html">Контакты</a>
+				<img onclick="closemenu()" src="img/close.svg">
 			</div>
 		</div>
 	</header>

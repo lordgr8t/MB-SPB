@@ -7,6 +7,9 @@ body{
 .container{
 	max-width: 1083px;
 }
+.m0a{
+	margin: 0 auto;
+}
 .tac{
 	text-align: center;
 }
@@ -22,6 +25,7 @@ h1,h2,h3,h4,h5,h6,p,a,div,span{
 a{
 	text-decoration: none;
 	text-transform: none;
+	transition: 0.5s;
 }
 header{
 	height: 60px;
@@ -32,6 +36,9 @@ header{
 }
 .f36{
 	font-size: 36px;
+}
+.f24{
+	font-size: 24px;
 }
 .f12{
 	font-size: 12px;
@@ -81,4 +88,97 @@ body > footer > div.container.d-flex.jcsb > a:nth-child(3) > img{
 .bigbtn{
 	margin-top: 10px;
 	width: 320px;
+}
+.sblock{
+	height: 120px;
+	
+	mix-blend-mode: normal;
+	border: 1px solid #BE8500;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px 2px #BE8500;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.srvpage{
+	background-image: url('../img/bg2.png');
+}
+/*body > div > div.blocks.d-flex.jcsb > div:nth-child(1),
+body > div > div:nth-child(3) > div:nth-child(2){
+	padding-top: 3.5%;
+}
+body > div > div.blocks.d-flex.jcsb > div:nth-child(2),
+body > div > div.blocks.d-flex.jcsb > div:nth-child(3),
+body > div > div:nth-child(3) > div:nth-child(3){
+	padding-top: 4.5%;
+}
+body > div > div:nth-child(3) > div:nth-child(1){
+	padding-top: 2.5%;
+}*/
+.techblock{
+	width: 31%;
+}
+.price{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: #BE8500;
+}
+.techblock .title{
+	text-decoration: underline;
+}
+body > div > div:nth-child(5) > div:nth-child(1) > div:nth-child(7) > div.price.mt-1,
+body > div > div:nth-child(5) > div:nth-child(1) > div:nth-child(11) > div.price.mt-1,
+body > div > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > div.price.mt-1{
+	padding-top: 8px;
+}
+a:hover{	
+	text-shadow: 3px 0px 2px rgba(190, 133, 0, 0.5);
+	color: #BE8500 !important;
+	color: #fff;
+	text-decoration: none;
+}
+
+.mobileheader{
+	display: none;
+}
+.mobileheader img{
+	width: 40px;
+	margin: 15px 15px 0 0;
+}
+.menu{
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	width: 320px;
+	background: linear-gradient(90deg, #000000 0%, #BE8500 104.22%);
+	/*	background: linear-gradient(90deg, #BE8500 0%, #000000 104.22%);*/
+	font-size: 20px;
+	text-align: center;
+	padding-top: 27%;
+	line-height: 95px;
+	z-index: 100;
+}
+body > header > div > div.menu > img{
+	position: absolute;
+	right: 31px;
+	top: 15px;
+	width: 35px;
+}
+.mobilebtns{
+	display: none;
+}
+.mobilebtns .btn{
+	width: 48%;
+}
+.fixbbtn{
+	display: none;
+	width: 100% !important;
+}
+.col-4{
+	max-width: 30%;
+	margin-right: 3%;
+}
+.nowhide{
+	display: none;
 }
