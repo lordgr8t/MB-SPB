@@ -1,7 +1,10 @@
 @media (max-width: 800px) {
 	.techblock_wrapper{
 		display: block !important;
-	}		
+	}	
+	.techblock{
+		width: 100% !important;
+	}
 }
 @media (max-width: 750px) {
 	.sblock{
@@ -10,15 +13,34 @@
 	.fixdbdn{
 		display: block !important;
 	}
-}
-@media (max-width: 700px) {
-	body > header > div > div.d-flex.aic,
-	.hide_m{
-		display: none !important;
-	}
 	.nowhide{
 		display: block;
 	}
+	.hide_m{
+		display: none !important;
+	}
+	.fixw50{
+		width: 100% !important;
+		text-align: center;
+	}
+	.fixbenz1{
+		width: 100% !important;
+	}
+	.fixblockhz{
+		display: block !important;
+	}
+	.contactpp{
+		display: block !important;
+	}
+	.contactpp .col-5{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+@media (max-width: 700px) {
+	body > header > div > div.d-flex.aic,
+	
+	
 	.mobileheader{
 		display: block;
 	}
@@ -29,10 +51,7 @@
 		display: block;
 		text-align: center;
 	}
-	.fixw50{
-		width: 100% !important;
-		text-align: center;
-	}
+	
 	.col-4{
 		flex: 0 0 48%;
 		max-width: 48%;
@@ -76,7 +95,7 @@
 		flex: 0 0 100%;
 		max-width: 100%;
 		margin-right: 0;
-	}
+	}	
 }
 @media (max-width: 350px) {
 	body > footer > div.container.d-flex.jcsb > div.d-flex > a{
